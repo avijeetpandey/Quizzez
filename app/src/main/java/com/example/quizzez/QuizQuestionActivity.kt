@@ -7,5 +7,7 @@ class QuizQuestionActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quiz_question)
+
+        val questions = Constants.getQuestions()
     }
 }
