@@ -41,6 +41,7 @@
                 android:id="@+id/progressBar"
                 style="?android:attr/progressBarStyleHorizontal"
                 android:layout_width="0dp"
+                android:progressTint="#00b4d8"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:indeterminate="false"
